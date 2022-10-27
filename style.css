@@ -1,0 +1,173 @@
+html{
+  font-size:2vh;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size:17px;
+}
+#win{
+  background-size: 800% 800%;
+  -webkit-animation: change 10s infinite linear;
+  -o-animation: change 10s infinite linear;
+  animation: change 10s infinite linear;  
+  background-image: linear-gradient(to bottom right, #c22, #e92, #b90, #9c0, #2c2, #29e, #24e, #94c,#24e,#29e,#2c2,#9c0,#b90,#e92,#c22);
+  color:red;
+  width:90vw;
+  height:80vh;
+  position:fixed;
+  display:none;
+  left:5vw;
+  top:10vh;
+  font-size:20vh;
+  text-decoration-line: none;
+}
+.button{
+  border:0.1vh black solid;
+  height:10vh;
+  width:10vw;
+  margin:auto;
+  text-align:center;
+  float:left;
+  font-size:2.2vh;
+}
+.text{
+  border:0.1vh black solid;
+  height:10vh;
+  width:10vw;
+  margin:auto;
+  text-align:center;
+  float:left;
+}
+#arrow{
+  border:0.1vh black solid;
+  height:10vw;
+  background-image:url("assets/arrowmonkey.png");
+  background-size:100%;
+}
+#boat{
+  border:0.1vh black solid;
+  height:10vw;
+  background-image:url("assets/boatmonkey.png");
+  background-size:100%;
+}
+#assassin{
+  border:0.1vh black solid;
+  height:10vw;
+  background-image:url("assets/assassinmonkey.png");
+  background-size:100%;
+}
+#hacker{
+  border:0.1vh black solid;
+  height:10vw;
+  background-image:url("assets/hackermonkey.png");
+  background-size:100%;
+}
+#hero{
+  border:0.1vh black solid;
+  height:10vw;
+  background-image:url("assets/heromonkey.png");
+  background-size:100%;
+}
+#nft_container{
+  height:fit-content;
+
+  width: fit-content;
+  margin-left: 5vw !important;
+  border:0.1vh black solid;
+  float:left;
+}
+.nfts{
+  float:left;
+  width:10vw;
+  height:10vw;
+  border:0.1vh black solid;
+}
+.text2{
+  cursor:pointer;
+  height:fit-content;
+  width:10vw;
+  float:left;
+  border-top:0.1vh black solid;
+  border-left:0.1vh black solid;
+  border-right:0.1vh black solid;
+  text-align:center;
+}
+#buy_50,#buy_100,#buy_1000,#sell_50,#sell_100,#sell_1000,#sell_10000, #buy_10000{
+  display:none; 
+  cursor:pointer;
+}
+
+.bContainer{
+  height:54vh;
+  width:10vw;
+  float: left;
+  border: 0.1vh black solid;
+  text-align:center;
+}
+#info{
+  margin-top:1vh;
+  width:10vw;
+  height:2vh;
+  float: left;
+  text-align:center;
+
+}
+#buy, #sell, #balance{
+  margin-top:1vh;
+}
+#buy, #sell{
+
+  cursor:pointer;
+}
+
+#cryptoland{
+  cursor:pointer;
+  border:0.1vh black solid;
+  height:25vh;
+  width:10vw;
+  margin:auto;
+  text-align:center;
+  float:left;
+  font-size:2.2vh;
+  margin-top:10vh;
+}
+@keyframes change {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 112.5%;
+  }
+  
+}
+
+#nfts{
+  margin-left:1.5vw;
+}
+#home{
+  margin-top:1vh;
+  margin-left:2vw;
+}
+#home_img{
+  height:6vh;
+  width:6.36vh;
+}
+#container{
+  background: #FFE87D;
+  width:75vw;
+  height:150vh;
+  margin:auto;
+  border:#fffb solid 1px;
+  border-top:0cm;
+}
+.container{
+  margin-top:10vh;
+  float:left;
+}
+#game_info{
+  width: 20vw;
+  height:20vh;
+  float: right;
+  margin-right: 20vw
+  
+}
